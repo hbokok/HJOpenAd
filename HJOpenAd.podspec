@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HJOpenAd/Classes/**/*'
-  s.public_header_files = 'HJOpenAd/Classes/**/*.h'
+  s.public_header_files = ['HJOpenAd/Classes/**/HJAdsOpen.h', 'HJOpenAd/Classes/**/JAdsRequest.h', 'HJOpenAd/Classes/**/HJAdsSdkSplash.h', 'HJOpenAd/Classes/**/HJAdsSdkInterstitial.h', 'HJOpenAd/Classes/**/HJAdsSdkReward.h', 'HJOpenAd/Classes/**/HJAdsSdk.h']
   s.vendored_libraries = 'HJOpenAd/Libraries/libHJOpenAds.a'
   
   # s.resource_bundles = {
