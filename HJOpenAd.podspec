@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of HJOpenAd.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/260413992@qq.com/HJOpenAd'
+  s.homepage         = 'https://github.com/hbokok/HJOpenAd'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '260413992@qq.com' => '260413992@qq.com' }
-  s.source           = { :git => 'https://github.com/260413992@qq.com/HJOpenAd.git', :tag => s.version.to_s }
+  s.author           = { 'hubOK' => '260413992@qq.com' }
+  s.source           = { :git => 'https://github.com/hbokok/HJOpenAd.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HJOpenAd/Classes/**/*'
+  s.public_header_files = 'HJOpenAd/Classes/**/*.h'
+  s.vendored_libraries = 'HJOpenAd/Libraries/libHJOpenAds.a'
   
   # s.resource_bundles = {
   #   'HJOpenAd' => ['HJOpenAd/Assets/*.png']
@@ -39,4 +41,12 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion"
+  s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
+  s.dependency 'ToBid-iOS/ToBidSDK','3.7.2'
+  s.dependency 'ToBid-iOS/MintegralAdapter','3.7.2'
+  s.dependency 'ToBid-iOS/GDTAdapter','3.7.2'
+  s.dependency 'ToBid-iOS/BaiduAdapter','3.7.2'
+  s.dependency 'ToBid-iOS/KSAdapter','3.7.2'
+  s.static_framework = true
 end

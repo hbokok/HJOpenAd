@@ -1,0 +1,5 @@
+#import "JAdsRequest.h"
+#import "HJAdsSdkSplash.h"
+#import "HJAdsSdkInterstitial.h"
+#import "HJAdsSdkReward.h"
+#import "HJAdsSdk"
