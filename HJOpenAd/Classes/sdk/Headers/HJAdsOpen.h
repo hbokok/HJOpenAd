@@ -2,4 +2,4 @@
 #import "HJAdsSdkSplash.h"
 #import "HJAdsSdkInterstitial.h"
 #import "HJAdsSdkReward.h"
-#import "HJAdsSdk"
+#import "HJAdsSdk.h"
