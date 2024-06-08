@@ -53,6 +53,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loadAdData;
 - (BOOL)isAdValid;
-
+- (UIView *)getView;
 @end
 NS_ASSUME_NONNULL_END
