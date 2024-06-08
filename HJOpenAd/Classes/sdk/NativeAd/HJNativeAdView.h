@@ -24,4 +24,5 @@
 @property (nonatomic, weak) id<HJNativeAdViewDelegate> delegate;
 @property (nonatomic, weak) UIViewController *viewController;
 - (void)refreshData:(HJNativeAd *)nativeAd;
+- (UIView *)getView;
 @end
