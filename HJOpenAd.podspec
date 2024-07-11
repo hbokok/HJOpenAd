@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-  s.version          = '2.1.9'
+  s.version          = '2.2.0'
   s.summary          = 'A short description of HJOpenAd.'
 
 # This description is used to generate tags and improve search results.
@@ -48,5 +48,7 @@ TODO: Add long description of the pod here.
   s.dependency 'ToBid-iOS/GDTAdapter','3.7.3'
   s.dependency 'ToBid-iOS/BaiduAdapter','3.7.3'
   s.dependency 'ToBid-iOS/KSAdapter','3.7.3'
+  s.dependency 'ToBid-iOS/TouTiaoAdapter','3.7.3'
+  s.dependency 'ToBid-iOS/CSJMediationAdapter','3.7.3'
   s.static_framework = true
 end
