@@ -3,7 +3,7 @@
 
 @interface HuijingAdPreviously : NSObject
 +(instancetype) shareInstance;
--(void) startAdPreviously:(NSString *)rewardId interstitialId:(NSString *)interstitialId fullScreenId:(NSString *)fullScreenId;
+-(void) startAdPreviously:(NSString *)rewardId interstitialId:(NSString *)interstitialId fullScreenId:(NSString *)fullScreenId userId:(NSString *)userId;
 -(WindMillRewardVideoAd *) getPrevRewardAd;
 -(WindMillIntersititialAd *) getPrevInterstitialAd;
 -(WindMillIntersititialAd *) getPrevFullScreenAd;
