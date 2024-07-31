@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-  s.version          = '2.2.2'
+  s.version          = '2.2.3'
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
@@ -43,12 +43,11 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
-  s.dependency 'ToBid-iOS/ToBidSDK','3.7.3'
-  s.dependency 'ToBid-iOS/MintegralAdapter','3.7.3'
-  s.dependency 'ToBid-iOS/GDTAdapter','3.7.3'
-  s.dependency 'ToBid-iOS/BaiduAdapter','3.7.3'
-  s.dependency 'ToBid-iOS/KSAdapter','3.7.3'
-  s.dependency 'ToBid-iOS/TouTiaoAdapter','3.7.3'
-  s.dependency 'ToBid-iOS/CSJMediationAdapter','3.7.3'
+  s.dependency 'ToBid-iOS/ToBidSDK','3.9.0'
+  s.dependency 'ToBid-iOS/MintegralAdapter','3.9.0'
+  s.dependency 'ToBid-iOS/GDTAdapter','3.9.0'
+  s.dependency 'ToBid-iOS/BaiduAdapter','3.9.0'
+  s.dependency 'ToBid-iOS/TouTiaoAdapter','3.9.0'
+  s.dependency 'ToBid-iOS/CSJMediationAdapter','3.9.0'
   s.static_framework = true
 end
