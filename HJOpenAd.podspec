@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-  s.version          = '2.2.4'
+  s.version          = '2.2.5'
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
@@ -47,6 +47,7 @@ TODO: Add long description of the pod here.
   s.dependency 'ToBid-iOS/MintegralAdapter','3.9.0'
   s.dependency 'ToBid-iOS/GDTAdapter','3.9.0'
   s.dependency 'ToBid-iOS/BaiduAdapter','3.9.0'
+  s.dependency 'ToBid-iOS/KSAdapter','3.9.0'
   s.dependency 'ToBid-iOS/TouTiaoAdapter','3.9.0'
   s.dependency 'ToBid-iOS/CSJMediationAdapter','3.9.0'
   s.static_framework = true
