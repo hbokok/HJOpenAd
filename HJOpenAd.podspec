@@ -8,11 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-<<<<<<< HEAD
-  s.version          = '2.3.1.4'
-=======
   s.version          = '2.3.3'
->>>>>>> 1e4266d (bugfix3)
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +29,18 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  
+
   s.source_files = 'HJOpenAd/Classes/**/*'
   s.public_header_files = ['HJOpenAd/Classes/**/HJAdsOpen.h', 'HJOpenAd/Classes/**/HJAdsRequest.h', 'HJOpenAd/Classes/**/HJAdsSdkSplash.h', 'HJOpenAd/Classes/**/HJAdsSdkInterstitial.h', 'HJOpenAd/Classes/**/HJAdsSdkReward.h', 'HJOpenAd/Classes/**/HJAdsSdk.h', 'HJOpenAd/Classes/**/HJBannerView.h', 'HJOpenAd/Classes/**/HJNativeAdView.h', 'HJOpenAd/Classes/**/HJNativeAd.h', 'HJOpenAd/Classes/**/HJNativeAdsManager.h']
   s.vendored_libraries = 'HJOpenAd/Libraries/libHJOpenAds.a'
+  
+  # s.resource_bundles = {
+  #   'HJOpenAd' => ['HJOpenAd/Assets/*.png']
+  # }
 
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
 # s.dependency 'ToBid-iOS/ToBidSDK','4.1.0'
