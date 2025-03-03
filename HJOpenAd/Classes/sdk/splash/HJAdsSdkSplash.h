@@ -5,6 +5,7 @@
 @protocol HJSplashAdDelegate <NSObject>
 @optional
 -(void) onSplashAdSuccessPresent;
+-(void) onSplashAdFailToPresent:(NSString *) placementId error:(NSError *)error;
 -(void) onSplashAdSuccessLoad:(NSString *) placementId;
 -(void) onSplashAdFailToLoad:(NSString *) placementId error:(NSError *)error;
 -(void) onSplashAdClicked;
@@ -18,6 +19,8 @@
 @property (nonatomic, weak) id<HJSplashAdDelegate> delegate;
 @property (nonatomic, weak) UIViewController *rootViewController;
 
+- (instancetype)initWithRequest:(HJAdsRequest *)request
+                              extra:(NSDictionary * _Nullable)extra;
 - (instancetype)initWithRequest:(HJAdsRequest *)request;
 - (BOOL)isAdReady;
 -(void)loadAdAndShow;
