@@ -7,4 +7,3 @@
 #import "HJNativeAdView.h"
 #import "HJNativeAd.h"
 #import "HJNativeAdsManager.h"
-#import "HjNSBundle+CustomBundleID.h"
