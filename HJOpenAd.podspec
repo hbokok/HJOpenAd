@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAd'
-  s.version          = '2.3.6'
+  s.version          = '2.3.7'
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HJOpenAd/Classes/**/*'
-  s.public_header_files = ['HJOpenAd/Classes/**/HJAdsOpen.h', 'HJOpenAd/Classes/**/HJAdsRequest.h', 'HJOpenAd/Classes/**/HJAdsSdkSplash.h', 'HJOpenAd/Classes/**/HJAdsSdkInterstitial.h', 'HJOpenAd/Classes/**/HJAdsSdkReward.h', 'HJOpenAd/Classes/**/HJAdsSdk.h', 'HJOpenAd/Classes/**/HJBannerView.h', 'HJOpenAd/Classes/**/HJNativeAdView.h', 'HJOpenAd/Classes/**/HJNativeAd.h', 'HJOpenAd/Classes/**/HJNativeAdsManager.h', 'HJOpenAd/Classes/**/HjNSBundle+CustomBundleID.h']
+  s.public_header_files = ['HJOpenAd/Classes/**/HJAdsOpen.h', 'HJOpenAd/Classes/**/HJAdsRequest.h', 'HJOpenAd/Classes/**/HJAdsSdkSplash.h', 'HJOpenAd/Classes/**/HJAdsSdkInterstitial.h', 'HJOpenAd/Classes/**/HJAdsSdkReward.h', 'HJOpenAd/Classes/**/HJAdsSdk.h', 'HJOpenAd/Classes/**/HJBannerView.h', 'HJOpenAd/Classes/**/HJNativeAdView.h', 'HJOpenAd/Classes/**/HJNativeAd.h', 'HJOpenAd/Classes/**/HJNativeAdsManager.h']
   s.vendored_libraries = 'HJOpenAd/Libraries/libHJOpenAds.a'
   
   # s.resource_bundles = {
